@@ -1,0 +1,16 @@
+def bounce(num):
+    i = num
+
+    if i == 0:
+        print(i, " ", end='') # skriv ut 0 
+        return
+    
+    # skriv ut uppifrån och ner till x -> 0
+    print(i, " ", end='') 
+    bounce(i - 1)  
+    
+    # skriv ut nerifrån och upp 1 -> x 
+    print(i, " ", end='')
+
+bounce(3)
+
