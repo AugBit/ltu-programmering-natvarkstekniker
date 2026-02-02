@@ -3,5 +3,6 @@ def get_file_content(filename):
     content = file.read()   
     print(content)
     file.close()
+    return content
     
 get_file_content("oldFile.txt")
