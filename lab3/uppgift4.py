@@ -1,13 +1,6 @@
 # lägga till en röst, om person inte finns ska en skapas
 def vote(dict,person):
-    if person in dict:
-        dict[person] = dict.get(person) + 1
-
-    else:
-        print("not found ")
-        dict[person] = 1
-    print(dict)
-
+    dict[person] = dict.get(person, 0) + 1
 
 # returnera antalet röster på person, om person inte finns returnera 0
 def votes(dict,person):
@@ -22,3 +15,4 @@ names = {}
 vote(names, "pedro")
 vote(names, "pedro")
 vote(names, "pedro")
+print(names)
