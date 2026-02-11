@@ -31,7 +31,7 @@ def moreThanOneWinner(dict):
             counter = counter + 1
         resultToCompare = value
 
-    if counter >= 1:
+    if counter > 0:
         return True        
     else:
         return False
@@ -39,7 +39,6 @@ def moreThanOneWinner(dict):
 names = {}
 vote(names, "pedro")
 vote(names, "pedro")
-vote(names, "august")
 vote(names, "august")
 vote(names, "august")
 votes(names, "august")
