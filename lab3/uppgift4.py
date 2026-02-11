@@ -37,11 +37,8 @@ def moreThanOneWinner(dict):
         return False
 
 names = {}
-vote(names, "pedro")
-vote(names, "pedro")
-vote(names, "august")
-vote(names, "august")
-votes(names, "august")
-votes(names, "pedro")
-
+vote(names, "Per")
+vote(names, "Inga")
+vote(names, "Per")
+votes(names, "Per")
 result(names)
