@@ -1,6 +1,7 @@
-# x = multiplicera talen 
-# antal tal = n 
+# x = multiplicera talen
+# antal tal = n
 # formel = x ^ 1/n
+
 
 def geomean(list):
     x = 1
@@ -12,4 +13,5 @@ def geomean(list):
     mean = x ** (1 / n)
     print(mean)
 
-geomean([1,2,3,10])
+
+geomean([1, 2, 3, 10])

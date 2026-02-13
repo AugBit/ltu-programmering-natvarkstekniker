@@ -10,8 +10,9 @@ def varannan(list):
         else:
             unEvenNames.append(name)
             i = i + 1
-    
+
     allNames = (evenNames, unEvenNames)
     print(allNames)
 
-varannan(["Maud","Marie","Mikaela","Maria","Madeleine"])
+
+varannan(["Maud", "Marie", "Mikaela", "Maria", "Madeleine"])
