@@ -42,6 +42,7 @@ def moreThanOneWinner(dict):
 names = {}
 vote(names, "Per")
 vote(names, "Inga")
+vote(names, "Inga")
 vote(names, "Per")
 votes(names, "Per")
 result(names)

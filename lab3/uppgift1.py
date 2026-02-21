@@ -19,4 +19,4 @@ def rovarspraket(stringToCheck):
     print(word)
 
 
-rovarspraket("hej")
+rovarspraket("programmera")
